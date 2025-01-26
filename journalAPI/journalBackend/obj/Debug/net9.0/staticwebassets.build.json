@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "UuAzw5A+pVz11Ls20/0rHWdAY+KGgBX/qvZ64fJcyYE=",
+  "Source": "journalBackend",
+  "BasePath": "_content/journalBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

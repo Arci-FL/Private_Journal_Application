@@ -1,0 +1,23 @@
+Container(
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  //image: AssetImage('assets/write.jpg'),
+                  image: NetworkImage(
+                      'https://cdn.pixabay.com/photo/2024/04/13/01/21/ai-generated-8692966_1280.jpg'),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+
+dotnet tool install --global dotnet-ef --version 9.*
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+dotnet add package Pomelo.EntityFrameworkCore.MySql
+DESKTOP-6L75CFP
+
+Server=localhost;Database=master;Trusted_Connection=True;
+
+
+API-->
+http://localhost:5012/api/signup/signUp
+http://localhost:5012/api/login/login
